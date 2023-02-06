@@ -3,9 +3,8 @@ import speech_recognition as sr
 import os
 import subprocess
 import requests
-from tgb import token_api
 
-token = token_api
+token = 'token'
 
 bot = telebot.TeleBot(token)
 
